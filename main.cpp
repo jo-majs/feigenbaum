@@ -56,7 +56,8 @@ int cycle_length(mytype (*fun)(mytype, mytype), mytype a, mytype y, int it, int 
  * l - the left end of the search range
  * r - the right end of the search range
  * x - the argument of the function parametrized by a
- * returns the found a*/
+ * returns the found a
+ */
 mytype binsearch_bifurc_param(mytype (*f) (mytype, mytype), mytype l, mytype r, mytype x, int c_length) {
     int i = 0;
     int current_len = 0;
